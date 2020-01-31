@@ -27,6 +27,7 @@ class PlaySoundsViewController: UIViewController {
     enum ButtonType: Int {case slow = 0, fast, chipmunk, vader, echo, reverb }
 
     override func viewDidLoad() {
+        super.viewDidLoad()
         setupAudio()
     }
     override func viewWillAppear(_ animated: Bool) {
